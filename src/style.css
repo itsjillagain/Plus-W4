@@ -1,0 +1,109 @@
+body {
+  font-family: Roboto;
+  margin: 50px 300px;
+  padding: 30px;
+  overflow-x: hidden;
+  border: solid 3px #08313a;
+  border-radius: 5px;
+  background: whitesmoke;
+}
+h1 {
+  font-size: 140px;
+  position: relative;
+  text-align: center;
+  color: #5cd85a;
+  top: 160px;
+}
+h2 {
+  font-size: 65px;
+  position: relative;
+  text-align: right;
+  color: #1a5653;
+  bottom: 90px;
+  right: 15px;
+}
+img {
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  z-index: 1;
+  top: 180px;
+  left: 350px;
+}
+button {
+  background-color: #1a5653;
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  position: absolute;
+  top: 80px;
+  left: 1100px;
+}
+button:hover {
+  background-color: #5cd85a;
+  color: #1a5653;
+}
+#description {
+  font-size: 30px;
+  color: #5cd85a;
+  position: relative;
+  text-align: right;
+  bottom: 90px;
+  right: 20px;
+  font-weight: bold;
+}
+.input {
+  text-align: center;
+  font-size: 10px;
+}
+.units {
+  position: relative;
+  text-align: center;
+  color: #5cd85a;
+  font-size: 30px;
+  left: 610px;
+  font-weight: bold;
+}
+.day {
+  position: relative;
+  text-align: right;
+  font-size: 20px;
+  font-weight: bolder;
+  color: #107869;
+  z-index: 1;
+  bottom: 80px;
+  right: 20px;
+}
+.time {
+  position: relative;
+  text-align: right;
+  font-size: 20px;
+  font-weight: bolder;
+  color: #107869;
+  z-index: 1;
+  bottom: 70px;
+  right: 20px;
+}
+
+.row {
+  font-size: 20px;
+  color: #1a5653;
+  position: relative;
+  left: 50px;
+}
+.break {
+  position: relative;
+  top: 10px;
+  border: solid 3px;
+  height: 3px;
+  border-color: #1a5653;
+  margin-bottom: 30px;
+}
+.form-control {
+  text-align: center;
+}
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #1a5653;
+}
