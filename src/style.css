@@ -107,3 +107,13 @@ button:hover {
   --bs-btn-color: #fff;
   --bs-btn-bg: #1a5653;
 }
+.git {
+  color: #1a5653;
+  display: block;
+  text-align: center;
+  position: relative;
+  top: 80px;
+}
+.git-link {
+  text-decoration: none;
+}
